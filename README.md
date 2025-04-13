@@ -16,7 +16,7 @@ This project uses neural networks for uplift estimation with implementations of 
 
 ## 🧪 Key Components
 
-- Criteo Dataset: Dataset containing anonymized user touchpoints.
+- Criteo Dataset: Dataset containing anonymized user touchpoints. You can access the [dataset](https://www.kaggle.com/datasets/arashnic/uplift-modeling) here on Kaggle.
 - Feature Attribution: Understand which features drive uplift.
 - CausalML: Uses XGBTRegressor from CausalML for uplift modeling.
 - Neural Network: Used MLPTRegressor from CausalML
