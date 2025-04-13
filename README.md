@@ -12,16 +12,16 @@ Uplift modeling is particularly useful in:
 - Causal Inference: Modeling the true effect of features rather than correlations.
 - Personalization: Targeting users with interventions that are likely to shift their behavior.
 
-This project uses neural networks for uplift estimation with implementations of S-learners and T-learners via the **causalml** library.
+This project uses neural networks for uplift estimation with implementations of T-learners via the **causalml** library.
 
 ## 🧪 Key Components
 
-- Criteo Dataset: Dataset containing anonymized user touchpoints. You can access the [dataset](https://www.kaggle.com/datasets/arashnic/uplift-modeling) here on Kaggle.
-- Feature Attribution: Understand which features drive uplift.
-- CausalML: Uses XGBTRegressor from CausalML for uplift modeling.
-- Neural Network: Used MLPTRegressor from CausalML
+- **Criteo Dataset:** Dataset containing anonymized user touchpoints. You can access the [dataset](https://www.kaggle.com/datasets/arashnic/uplift-modeling) here on Kaggle.
+- **Feature Attribution:** Understand which features drive uplift.
+- **CausalML:** Uses XGBTRegressor from CausalML for uplift modeling.
+- **Neural Network:** Used MLPTRegressor from CausalML
 - Saved the model for future use using Pickle
-- Evaluation Metrics:
+- **Evaluation Metrics:**
   * Conversion lift and Uplift Gain
   * Contribution of each variable to the final purchase decision
 
