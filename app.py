@@ -17,7 +17,7 @@ def load_model(filepath):
     return model
 
 # Load the model
-model = load_model("synapses_checkpint.pkt")
+model = load_model("synapses_checkpoint.pkt")
 
 # Define columns
 col1, col2 = st.columns([1, 2])
